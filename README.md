@@ -167,13 +167,6 @@ GitHub: [https://github.com/82sanju](https://github.com/82sanju)
 
 ---
 
-## ✅ What to do next
 
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
-````
 
----
 
