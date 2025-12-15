@@ -177,9 +177,3 @@ git push
 
 ---
 
-
-
-
-
-
-Say the word.
