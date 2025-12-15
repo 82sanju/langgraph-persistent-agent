@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>LangGraph Chat</title>
+  <script src="/static/chat.js" defer></script>
+</head>
+<body>
+  <h2>LangGraph Persistent Agent</h2>
+
+  <input id="thread" placeholder="thread_id" value="demo_1" />
+  <br><br>
+
+  <textarea id="chat" rows="12" cols="80" readonly></textarea>
+  <br><br>
+
+  <input id="msg" placeholder="Type message..." size="60" />
+  <button onclick="send()">Send</button>
+
+  <br><br>
+  <button onclick="loadHistory()">Load History</button>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LangGraph Chat</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="/static/chat.js" defer></script>
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <h2>LangGraph Agent</h2>
+      <input id="thread" value="demo_1" />
+    </header>
+
+    <main id="chat-box"></main>
+
+    <footer>
+      <input id="msg" placeholder="Send a message…" />
+      <button onclick="send()">➤</button>
+    </footer>
+  </div>
+</body>
+</html>

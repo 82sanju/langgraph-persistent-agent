@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# SQLite
+storage/memory.db
+
+# OS / editor
+.vscode/
+.DS_Store
